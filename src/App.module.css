@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.danger {
+    background-color: #FF3F54;
+}
+
+.warning {
+    background-color: #FD9B00;
+}
+
+.success {
+    background-color: #14B985;
+}
+
+.notification {
+    display: flex;
+    align-items:center;
+    padding: 82px 40px;
+}
+
+.title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    margin-right: 56px;
+}
