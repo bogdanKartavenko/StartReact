@@ -11,8 +11,12 @@ const icons = {
     danger: IconError,
 }
 
+function onClick() {
+    alert("Привет!")
+};
+
 export const Notification = ({ text, type }) => {
-    return <button className={clsx(styles.container, styles[type])}> <img className={styles.icon} src={icons[type]} alt={type} /> {text}</button>
+    return <button onClick={onClick} className={clsx(styles.container, styles[type])}> <img className={styles.icon} src={icons[type]} alt={type} /> {text}</button>
 };
 
 Notification.propTypes = {
