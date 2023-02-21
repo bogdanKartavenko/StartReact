@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
-.danger {
-    background-color: #FF3F54;
-}
-
-.warning {
-    background-color: #FD9B00;
-}
-
-.success {
-    background-color: #14B985;
-}
-
 .notification {
     display: flex;
     align-items:center;
