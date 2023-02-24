@@ -12,7 +12,7 @@ const icons = {
 }
 
 function onClick() {
-    alert("Привет!")
+    alert("Hello!")
 };
 
 export const Notification = ({ text, type }) => {
